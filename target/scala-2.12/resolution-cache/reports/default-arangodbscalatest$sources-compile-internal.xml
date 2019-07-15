@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="default"
+		module="arangodbscalatest$sources"
+		revision="0.1"
+		conf="compile-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20181119115208"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.12.7" status="release" pubdate="20180927103542" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="7">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2471" time="0" location="/Users/hkernbach/.ivy2/cache/org.scala-lang/scala-library/ivy-2.12.7.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7.pom"/>
+				<caller organisation="default" name="arangodbscalatest$sources" conf="compile-internal, compile, provided, optional" rev="2.12.7" rev-constraint-default="2.12.7" rev-constraint-dynamic="2.12.7" callerrev="0.1" extra-info.apiURL="http://www.scala-lang.org/api/2.12.7/"/>
+				<artifacts>
+					<artifact name="scala-library" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="991412" time="0" location="/Users/hkernbach/.ivy2/cache/org.scala-lang/scala-library/srcs/scala-library-2.12.7-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.7/scala-library-2.12.7-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.arangodb" name="arangodb-spark-connector">
+			<revision name="1.0.2" status="release" pubdate="20171130101741" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maven.apache.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="5">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5428" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/arangodb-spark-connector/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/arangodb/arangodb-spark-connector/1.0.2/arangodb-spark-connector-1.0.2.pom"/>
+				<caller organisation="default" name="arangodbscalatest$sources" conf="compile-internal, compile, provided, optional" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="arangodb-spark-connector" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="14104" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/arangodb-spark-connector/srcs/arangodb-spark-connector-1.0.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/arangodb/arangodb-spark-connector/1.0.2/arangodb-spark-connector-1.0.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.arangodb" name="velocypack-module-jdk8">
+			<revision name="1.0.3" status="release" pubdate="20170919162525" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maven.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4779" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/velocypack-module-jdk8/ivy-1.0.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/arangodb/velocypack-module-jdk8/1.0.3/velocypack-module-jdk8-1.0.3.pom"/>
+				<caller organisation="default" name="arangodbscalatest$sources" conf="compile-internal, compile, provided, optional" rev="1.0.3" rev-constraint-default="1.0.3" rev-constraint-dynamic="1.0.3" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="velocypack-module-jdk8" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="4862" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/velocypack-module-jdk8/srcs/velocypack-module-jdk8-1.0.3-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/arangodb/velocypack-module-jdk8/1.0.3/velocypack-module-jdk8-1.0.3-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.arangodb" name="arangodb-java-driver">
+			<revision name="4.3.2" status="release" pubdate="20171130092648" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maven.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="5148" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/arangodb-java-driver/ivy-4.3.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/arangodb/arangodb-java-driver/4.3.2/arangodb-java-driver-4.3.2.pom"/>
+				<caller organisation="default" name="arangodbscalatest$sources" conf="compile-internal, compile, provided, optional" rev="4.3.2" rev-constraint-default="4.3.2" rev-constraint-dynamic="4.3.2" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="arangodb-java-driver" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="198248" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/arangodb-java-driver/srcs/arangodb-java-driver-4.3.2-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/arangodb/arangodb-java-driver/4.3.2/arangodb-java-driver-4.3.2-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.arangodb" name="velocypack">
+			<revision name="1.0.14" status="release" pubdate="20171127100733" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maven.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="3">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4879" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/velocypack/ivy-1.0.14.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/arangodb/velocypack/1.0.14/velocypack-1.0.14.pom"/>
+				<caller organisation="default" name="arangodbscalatest$sources" conf="compile-internal, compile, provided, optional" rev="1.0.14" rev-constraint-default="1.0.14" rev-constraint-dynamic="1.0.14" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="velocypack" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="69134" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/velocypack/srcs/velocypack-1.0.14-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/arangodb/velocypack/1.0.14/velocypack-1.0.14-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.13" status="release" pubdate="20151110211419" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="4">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="5195" time="0" location="/Users/hkernbach/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.13.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13.pom"/>
+				<caller organisation="default" name="arangodbscalatest$sources" conf="compile-internal, compile, provided, optional" rev="1.7.13" rev-constraint-default="1.7.13" rev-constraint-dynamic="1.7.13" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="50869" time="0" location="/Users/hkernbach/.ivy2/cache/org.slf4j/slf4j-api/srcs/slf4j-api-1.7.13-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.13/slf4j-api-1.7.13-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.googlecode.json-simple" name="json-simple">
+			<revision name="1.1.1" status="release" pubdate="20120321061134" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://code.google.com/p/json-simple/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="1">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2986" time="0" location="/Users/hkernbach/.ivy2/cache/com.googlecode.json-simple/json-simple/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1.pom"/>
+				<caller organisation="default" name="arangodbscalatest$sources" conf="compile-internal, compile, provided, optional" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="json-simple" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="17445" time="0" location="/Users/hkernbach/.ivy2/cache/com.googlecode.json-simple/json-simple/srcs/json-simple-1.1.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/googlecode/json-simple/json-simple/1.1.1/json-simple-1.1.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.arangodb" name="velocypack-module-scala">
+			<revision name="1.0.1" status="release" pubdate="20170619091547" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://maven.apache.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="0">
+				<license name="Apache License 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4289" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/velocypack-module-scala/ivy-1.0.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/arangodb/velocypack-module-scala/1.0.1/velocypack-module-scala-1.0.1.pom"/>
+				<caller organisation="default" name="arangodbscalatest$sources" conf="compile-internal, compile, provided, optional" rev="1.0.1" rev-constraint-default="1.0.1" rev-constraint-dynamic="1.0.1" callerrev="0.1"/>
+				<artifacts>
+					<artifact name="velocypack-module-scala" type="src" ext="jar" extra-classifier="sources" status="no" details="" size="2893" time="0" location="/Users/hkernbach/.ivy2/cache/com.arangodb/velocypack-module-scala/srcs/velocypack-module-scala-1.0.1-sources.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/arangodb/velocypack-module-scala/1.0.1/velocypack-module-scala-1.0.1-sources.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>
